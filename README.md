@@ -1,1 +1,1 @@
-# Convolutional_Neural_Networks_with_Keras_for_CIFAR10
+# Convolutional_Neural_Networks_CIFAR10_with_Keras
