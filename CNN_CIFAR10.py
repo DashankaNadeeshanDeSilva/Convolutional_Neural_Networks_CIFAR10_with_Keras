@@ -29,7 +29,7 @@ from keras import regularizers
 from keras.callbacks import LearningRateScheduler
 
 # Parameters
-TRAINING_EPOCHS = 10
+TRAINING_EPOCHS = 100
 
 
 # Learning rate scheduling
@@ -172,7 +172,7 @@ print('Test accuracy:', scores[1] * 100, "%")
 plt.figure(0)
 plt.plot(cnn_model.history['accuracy'], 'mediumaquamarine')
 plt.plot(cnn_model.history['val_accuracy'], 'royalblue')
-plt.xticks(np.arange(0, 101, 2.0))
+plt.xticks(np.arange(0, 81, 10.0))
 plt.rcParams['figure.figsize'] = (8, 6)
 plt.xlabel("Num of Epochs")
 plt.ylabel("Accuracy")
@@ -184,7 +184,7 @@ plt.savefig('accuracy_graphs.png')
 plt.figure(1)
 plt.plot(cnn_model.history['loss'], 'mediumaquamarine')
 plt.plot(cnn_model.history['val_loss'], 'royalblue')
-plt.xticks(np.arange(0, 101, 2.0))
+plt.xticks(np.arange(0, 81, 10.0))
 plt.rcParams['figure.figsize'] = (8, 6)
 plt.xlabel("Num of Epochs")
 plt.ylabel("Loss")
