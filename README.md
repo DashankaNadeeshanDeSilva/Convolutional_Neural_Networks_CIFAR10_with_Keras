@@ -19,5 +19,7 @@ This script explains a convolutional neural network with 10 convolution layers a
 
 **CNN Architecture**
 
-10-Convolution layers
+10-Convolution layers (32,32,64,64,128,128,256,256,512,512)
+
 1-Dense layer
+
